@@ -1,0 +1,145 @@
+.mand{
+    position: absolute;
+width: 384px;
+height: 23px;
+left: 76px;
+top: 267px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #39364F;
+}
+.secnddata{
+    position: absolute;
+    top: 650px;
+
+}
+.col1{position: absolute;
+width: 552px;
+height: 86px;
+left: 76px;
+top: 300px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+border-radius: 5px 12px 12px 5px;
+border-left: rgb(226, 43, 119) 3px solid ;
+}
+.col2{
+    position: absolute;
+width: 552px;
+height: 86px;
+left: 76px;
+top: 406px;
+
+background: #FFFFFF;
+box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+border-radius: 5px 12px 12px 5px;
+border-left: rgb(224, 221, 4) 3px solid ;
+}
+.col3{
+    position: absolute;
+    width: 552px;
+    height: 86px;
+    left: 76px;
+    top: 512px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 26px rgba(81, 74, 129, 0.07);
+    border-radius: 5px 12px 12px 5px;
+    border-left: rgb(11, 238, 124) 3px solid ;
+
+}
+.col4{
+    position: absolute;
+    width: 552px;
+    height: 86px;
+    left: 76px;
+    top: 618px;
+    
+    background: #FFFFFF;
+    box-shadow: 0px 5px 26px #514a8112;
+    border-radius: 5px 12px 12px 5px;
+    border-left: blueviolet 3px solid ;
+
+
+}
+.col5{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 30px;
+
+position: absolute;
+width: 557px;
+height: 86px;
+left: 76px;
+top: 620px;
+
+background: #F2F2F2;
+border: 1px dashed #9A9898;
+box-sizing: border-box;
+border-radius: 12px;
+}
+.field1{
+    position: absolute;
+width: 171px;
+height: 26px;
+left: 103px;
+top: 22px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 18px;
+line-height: 26px;
+/* identical to box height, or 162% */
+
+display: flex;
+align-items: center;
+
+color: #39364F;
+
+
+}
+.dd1{
+    
+    position: absolute;
+width: 282px;
+height: 20px;
+left: 103px;
+top: 45px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+
+color: #39364F;
+
+opacity: 0.6;
+}
+.heading{
+    position: absolute;
+width: 405px;
+height: 26px;
+left: 76px;
+top: 192px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 26px;
+}

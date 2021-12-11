@@ -1,0 +1,28 @@
+.topdiv{
+    position: fixed;
+width:100%;
+height: 68px;
+z-index: 1;
+left: 0px;
+top: 0px;
+
+
+background: #fdfafa;
+}
+.navbar{
+    
+
+    top: 69px;
+    background: #B0D1D8;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+    
+    text-transform: uppercase;
+    
+    
+    /* 39364F */ 
+    }

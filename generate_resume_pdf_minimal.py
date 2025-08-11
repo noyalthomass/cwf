@@ -68,9 +68,9 @@ def write_pdf(path: str):
     # Summary
     add_line(content_lines, "PROFESSIONAL SUMMARY", font_tag="F2", size=12, extra_space=6)
     summary = (
-        "Detail-oriented Accounts and Tax Professional with experience in Accounts Payable, Accounts Receivable, "
-        "Bank Reconciliation, Intercompany, Month-End Closing, and VAT/GST compliance. Skilled in Tally Prime/ERP 9, "
-        "Microsoft Excel, and Zoho Books. Strong stakeholder communication, reporting, and process improvement."
+        "Accounts professional skilled in AP/AR, agent commission accounting, monthly reporting, bank and vendor "
+        "ledger reconciliation, intercompany entries, month-end close, GST invoice recording, petty cash control, and "
+        "expense provisioning. Strong at managing vendor payments, email correspondence, and process accuracy."
     )
 
     # Simple word-wrapping
@@ -111,11 +111,12 @@ def write_pdf(path: str):
     add_line(content_lines, "Accounts Officer — HCI Australia", font_tag="F2", size=11)
     add_line(content_lines, "09/2023 – Present | Kochi, India", size=10)
     exp1 = [
-        "- Managed end-to-end AP and AR with on-time payments and collections.",
-        "- Performed weekly bank reconciliation to general ledger and financial records.",
-        "- Reconciled vendor and customer ledgers; processed adjustments and resolved discrepancies.",
-        "- Generated and reconciled intercompany transactions; validated intercompany GL balances monthly.",
-        "- Prepared age-wise debtor/creditor statements and supported month-end closing and finalization.",
+        "- Accounts Payables & Receivables management; timely vendor payments.",
+        "- Daily bank statement reconciliation; vendor ledger reconciliation.",
+        "- Agent commission accounting and expense provisioning.",
+        "- Preparing monthly reports and assisting month-end close/finalization.",
+        "- Monitoring and replying to accounts emails; intercompany entries recorded properly.",
+        "- Petty cash reconciliation and GST invoice recording with accurate posting.",
     ]
     for item in exp1:
         for wrapped in wrap(item):
